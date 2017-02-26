@@ -39,16 +39,19 @@ Options
   The private or alias key for your Pushsafer service. Defaults to an empty string and must be set for pushsafer-weechat to work.
 
 * plugins.var.ruby.pushsafer-weechat.interval
+
    The interval between notifications. Doesn't notify if the last
    notification was within x seconds.
    Default: 60 seconds
 
 * plugins.var.ruby.pushsafer-weechat.sound
+
   Set your notification sound options (Current listing located at https://www.pushsafer.com/en/pushapi)
   a number 0-28 0 = silent, blank = device default
   Default: blank (Sound will be device default)
 
 * plugins.var.ruby.pushsafer-weechat.icon
+
   Set your notification icon (Current listing located at https://www.pushsafer.com/en/pushapi)
   a number 1-98
   Default: blank
