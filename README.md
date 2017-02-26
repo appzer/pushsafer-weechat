@@ -33,6 +33,7 @@ Set your Pushsafer private key.
 
 Options
 -------
+The following parameters you can modify, further informations you will find on https://www.pushsafer.com/en/pushapi
 
 * plugins.var.ruby.pushsafer-weechat.privatekey
 
@@ -41,20 +42,63 @@ Options
 * plugins.var.ruby.pushsafer-weechat.interval
 
    The interval between notifications. Doesn't notify if the last
+   
    notification was within x seconds.
+   
    Default: 60 seconds
 
 * plugins.var.ruby.pushsafer-weechat.sound
 
-  Set your notification sound options (Current listing located at https://www.pushsafer.com/en/pushapi)
+  Set your notification sound options
+  
   a number 0-28 0 = silent, blank = device default
+  
   Default: blank (Sound will be device default)
+
+* plugins.var.ruby.pushsafer-weechat.device
+
+  Set your notification device
+  
+  your device or device group id, if empty = to all devices
+  
+  Default: blank
 
 * plugins.var.ruby.pushsafer-weechat.icon
 
-  Set your notification icon (Current listing located at https://www.pushsafer.com/en/pushapi)
+  Set your notification icon
+  
   a number 1-98
+  
   Default: blank
 
+* plugins.var.ruby.pushsafer-weechat.vibration
 
+  Set your notification vibration
+  
+  a number 0-3
+  
+  Default: blank
 
+* plugins.var.ruby.pushsafer-weechat.time2live
+
+  Set your notification time to live
+  
+  a number 0-43200: Time in minutes, after which message automatically gets purged.
+  
+  Default: blank
+
+* plugins.var.ruby.pushsafer-weechat.url
+
+  Set your notification url
+  
+  a url or url scheme
+  
+  Default: blank
+
+* plugins.var.ruby.pushsafer-weechat.urltitle
+
+  Set your notification url title
+  
+  title of url
+  
+  Default: blank
