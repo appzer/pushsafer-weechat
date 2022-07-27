@@ -20,7 +20,7 @@ Install
 Load the pushsafer-weechat.rb plugin into Weechat. Place it in the
 ~/.weechat/ruby directory:
 
-    /ruby load pushsafer-weechat.rb
+    /ruby load https://raw.githubusercontent.com/appzer/pushsafer-weechat/master/pushsafer-weechat.rb
 
 It also requires a Pushsafer account and Ruby, the Ruby OpenSSL libraries, and RubyGems installed on your host.
 
